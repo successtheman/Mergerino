@@ -461,11 +461,12 @@ QString kickIdentityAuthHelper()
         "if (!sessionToken) { console.error('Mergerino: no signed-in Kick session "
         "was found.'); return; }"
         "const xsrfToken = readCookie('XSRF-TOKEN');"
-        "if (!xsrfToken) { console.error('Mergerino: Kick security data was "
-        "not found. Refresh kick.com and run the helper again.'); return; }"
         "copy(JSON.stringify({sessionToken, xsrfToken}));"
-        "console.log('Mergerino Kick token copied. Return to Mergerino and "
-        "click Paste Token.');"
+        "console.log("
+        "xsrfToken"
+        "? 'Mergerino Kick token and XSRF token copied. Return to Mergerino and click Paste Token.'"
+        ": 'Mergerino Kick token copied. XSRF token was not found. Return to Mergerino and click Paste Token.'"
+        ");"
         "})()");
 }
 
