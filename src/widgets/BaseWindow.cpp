@@ -1454,8 +1454,10 @@ bool BaseWindow::handleSIZE(MSG *msg)
 
             if (this->isNotMinimizedOrMaximized_)
             {
-                // Wait for WM_SIZE to be processed by Qt and update the current
-                // bounds afterwards.
+                // currentBounds_ doubles as the rect a maximized window is
+                // restored to, so only update it while the window is in its
+                // normal state - a maximized or minimized window would
+                // overwrite the restore rect with its current size.
                 postToThread([this] {
                     this->currentBounds_ = this->geometry();
                 });
@@ -1568,9 +1570,14 @@ bool BaseWindow::handleWINDOWPOSCHANGING(WINDOWPOS *pos)
         return false;
     }
 
-    // Windows restores a maximized window onto whichever monitor holds its
-    // restore rect, so correcting the position here is enough to end up
-    // maximized on the right monitor.
+    // Correct the position here, while it's still only a proposal. Fixing it
+    // after Windows has applied the change (e.g. from WM_SIZE or a queued
+    // callback) paints the window on the wrong monitor for a frame, which
+    // reads as a flicker on the primary monitor.
+    //
+    // The target must come from preMinimizeBounds_ - where the window was
+    // actually on - not from GetWindowPlacement's rcNormalPosition, which is
+    // the pre-maximize rect and can sit on a different monitor entirely.
     pos->x = preMinimize.x();
     pos->y = preMinimize.y();
     pos->cx = preMinimize.width();
