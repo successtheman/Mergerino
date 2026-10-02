@@ -130,10 +130,13 @@ std::optional<UINT> hiddenTaskbarEdge(LPRECT rcMon = nullptr)
 
 /// @brief Gets the window borders for @a hwnd
 ///
+/// @a proposedRect is the rect Windows is about to place the window at. It's
+/// used to determine which monitor the window is going to be on.
+///
 /// Each side of the returned RECT has the correct sign, so they can be added
 /// to a window rect.
 /// Shrinking by 1px would return {left: 1, top: 1, right: -1, left: -1}.
-RECT windowBordersFor(HWND hwnd, bool isMaximized)
+RECT windowBordersFor(HWND hwnd, bool isMaximized, const RECT &proposedRect)
 {
     RECT margins{0, 0, 0, 0};
 
@@ -167,7 +170,13 @@ RECT windowBordersFor(HWND hwnd, bool isMaximized)
 
     if (isMaximized)
     {
-        auto *hMonitor = MonitorFromWindow(hwnd, MONITOR_DEFAULTTONEAREST);
+        // Note: MonitorFromWindow can't be used here. While the window is
+        // minimized its rect is the off-screen parking position at
+        // (-32000, -32000), so this reports whichever monitor happens to be
+        // nearest to that. The proposed rect tells us which monitor the
+        // window is actually going to end up on.
+        auto *hMonitor =
+            MonitorFromRect(&proposedRect, MONITOR_DEFAULTTONEAREST);
         MONITORINFO mi;
         mi.cbSize = sizeof(mi);
         auto *monitor = [&]() -> LPRECT {
@@ -989,6 +998,15 @@ void BaseWindow::resizeEvent(QResizeEvent *)
 
 void BaseWindow::moveEvent(QMoveEvent *event)
 {
+#ifdef USEWINSDK
+    if (auto hwnd = this->safeHWND())
+    {
+        // Dragging a window between monitors only sends WM_MOVE, so this is
+        // the only place we learn about it.
+        this->updateLastVisibleBounds(*hwnd);
+    }
+#endif
+
     // Queue up save because: Window position changed
 #ifdef CHATTERINO
     if (!this->flags_.has(DisableLayoutSave))
@@ -1050,6 +1068,11 @@ bool BaseWindow::nativeEvent(const QByteArray &eventType, void *message,
 
         case WM_SIZE:
             returnValue = this->handleSIZE(msg);
+            break;
+
+        case WM_WINDOWPOSCHANGING:
+            returnValue = this->handleWINDOWPOSCHANGING(
+                reinterpret_cast<WINDOWPOS *>(msg->lParam));
             break;
 
         case WM_MOVE:
@@ -1382,7 +1405,7 @@ bool BaseWindow::handleNCCALCSIZE(MSG *msg, qintptr *result)
     this->isMaximized_ = GetWindowPlacement(msg->hwnd, &wp) != 0 &&
                          (wp.showCmd == SW_SHOWMAXIMIZED);
 
-    auto borders = windowBordersFor(msg->hwnd, this->isMaximized_);
+    auto borders = windowBordersFor(msg->hwnd, this->isMaximized_, *r);
     r->left += borders.left;
     r->top += borders.top;
     r->right += borders.right;
@@ -1439,11 +1462,28 @@ bool BaseWindow::handleSIZE(MSG *msg)
             }
             this->useNextBounds_.stop();
 
-            if (msg->wParam == SIZE_MINIMIZED && this->ui_.titlebarButtons)
+            if (msg->wParam == SIZE_MINIMIZED)
             {
-                // Windows doesn't send a WM_NCMOUSELEAVE event when clicking
-                // the minimize button, so we have to emulate it.
-                this->ui_.titlebarButtons->leave();
+                if (this->ui_.titlebarButtons)
+                {
+                    // Windows doesn't send a WM_NCMOUSELEAVE event when
+                    // clicking the minimize button, so we have to emulate it.
+                    this->ui_.titlebarButtons->leave();
+                }
+
+                this->savePreMinimizeBounds();
+            }
+            else if (this->wasMinimized_)
+            {
+                // The restore itself is handled in handleWINDOWPOSCHANGING.
+                this->wasMinimized_ = false;
+            }
+            else
+            {
+                // Remember where the window actually is. This has to be the
+                // real rect rather than the restore rect - see the comment on
+                // savePreMinimizeBounds.
+                this->updateLastVisibleBounds(msg->hwnd);
             }
 
             RECT real;
@@ -1454,6 +1494,88 @@ bool BaseWindow::handleSIZE(MSG *msg)
         }
     }
     return false;
+#else
+    return false;
+#endif
+}
+
+#ifdef USEWINSDK
+void BaseWindow::updateLastVisibleBounds(HWND hwnd)
+{
+    RECT r;
+    if (!::GetWindowRect(hwnd, &r) || r.right <= r.left || r.bottom <= r.top)
+    {
+        return;
+    }
+
+    // Windows parks minimized windows at (-32000, -32000), which isn't on any
+    // monitor. MONITOR_DEFAULTTONULL lets us reject those.
+    if (::MonitorFromRect(&r, MONITOR_DEFAULTTONULL) == nullptr)
+    {
+        return;
+    }
+
+    this->lastVisibleBounds_ = QRect(r.left, r.top, r.right - r.left,
+                                     r.bottom - r.top);
+}
+
+void BaseWindow::savePreMinimizeBounds()
+{
+    // At this point GetWindowRect is already the minimized parking position,
+    // so use the last rect we saw while the window was actually visible.
+    if (!this->lastVisibleBounds_.isEmpty())
+    {
+        this->preMinimizeBounds_ = this->lastVisibleBounds_;
+    }
+    else
+    {
+        this->preMinimizeBounds_ = std::nullopt;
+    }
+
+    this->wasMinimized_ = true;
+}
+
+#endif
+
+bool BaseWindow::handleWINDOWPOSCHANGING(WINDOWPOS *pos)
+{
+#ifdef USEWINSDK
+    if (!this->wasMinimized_ || !this->preMinimizeBounds_)
+    {
+        return false;
+    }
+
+    // Only actual moves are interesting.
+    if ((pos->flags & SWP_NOMOVE) != 0)
+    {
+        return false;
+    }
+
+    const auto proposed = RECT{pos->x, pos->y, pos->x + pos->cx,
+                               pos->y + pos->cy};
+    const auto preMinimize = *this->preMinimizeBounds_;
+    const auto preMinimizeRect = RECT{
+        preMinimize.left(), preMinimize.top(),
+        preMinimize.right(), preMinimize.bottom()};
+
+    auto *proposedMonitor =
+        ::MonitorFromRect(&proposed, MONITOR_DEFAULTTONULL);
+    auto *preMinimizeMonitor =
+        ::MonitorFromRect(&preMinimizeRect, MONITOR_DEFAULTTONULL);
+    if (preMinimizeMonitor == nullptr || proposedMonitor == nullptr ||
+        proposedMonitor == preMinimizeMonitor)
+    {
+        return false;
+    }
+
+    // Windows restores a maximized window onto whichever monitor holds its
+    // restore rect, so correcting the position here is enough to end up
+    // maximized on the right monitor.
+    pos->x = preMinimize.x();
+    pos->y = preMinimize.y();
+    pos->cx = preMinimize.width();
+    pos->cy = preMinimize.height();
+    return true;
 #else
     return false;
 #endif

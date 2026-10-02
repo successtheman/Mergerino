@@ -16,6 +16,8 @@
 class QHBoxLayout;
 struct tagMSG;
 typedef struct tagMSG MSG;
+struct tagWINDOWPOS;
+typedef struct tagWINDOWPOS WINDOWPOS;
 
 namespace chatterino {
 
@@ -188,6 +190,12 @@ private:
 
     bool handleSHOWWINDOW(MSG *msg);
     bool handleSIZE(MSG *msg);
+    /// @brief Runs before Windows applies a new window position
+    ///
+    /// If the window is being restored from the minimized state onto the wrong
+    /// monitor, the position is corrected here so the window is never painted
+    /// on the wrong monitor in the first place.
+    bool handleWINDOWPOSCHANGING(WINDOWPOS *pos);
     bool handleMOVE(MSG *msg);
     bool handleNCCALCSIZE(MSG *msg, qintptr *result);
     bool handleNCHITTEST(MSG *msg, qintptr *result);
@@ -217,6 +225,23 @@ private:
 
 #ifdef USEWINSDK
     void updateRealSize();
+    /// @brief Remembers the window's bounds before it gets minimized
+    ///
+    /// Windows restores a window onto whichever monitor holds its restore
+    /// rect, which for a maximized window is not necessarily the monitor it
+    /// was on. Remembering the real bounds lets handleWINDOWPOSCHANGING notice
+    /// and correct that.
+    ///
+    /// Note that this deliberately does *not* use
+    /// `GetWindowPlacement`'s `rcNormalPosition`: that's the rect the window
+    /// had before it was maximized, which can be on a completely different
+    /// monitor than the window is actually on.
+    void savePreMinimizeBounds();
+    /// @brief Updates #lastVisibleBounds_ from the window's current rect
+    ///
+    /// Does nothing if the window is minimized (Windows parks minimized
+    /// windows at (-32000, -32000)).
+    void updateLastVisibleBounds(HWND hwnd);
     /// @brief Returns the HWND of this window if it has one
     ///
     /// A QWidget only has an HWND if it has been created. Before that,
@@ -245,6 +270,12 @@ private:
     /// GetWindowRect. Used for drawing.
     QRect realBounds_;
     bool isMaximized_ = false;
+    /// The window's bounds at the time it was last minimized.
+    std::optional<QRect> preMinimizeBounds_;
+    /// The last bounds the window had while it wasn't minimized.
+    QRect lastVisibleBounds_;
+    /// Whether the last window state change was a minimize.
+    bool wasMinimized_ = false;
 #endif
 
     pajlada::Signals::SignalHolder connections_;
