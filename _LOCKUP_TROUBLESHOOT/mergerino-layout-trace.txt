@@ -1,0 +1,2390 @@
+Application::initialize start
+Application before emotes initialize
+Application after emotes initialize
+Application before accounts load
+Application after accounts load
+Application before windows initialize
+WindowManager::initialize start
+before loadWindowLayoutFromFile
+after loadWindowLayoutFromFile
+before applyWindowLayout
+applyWindowLayout start windows=1
+window 0 before create type=main tabs=36
+window 0 after create
+window 0 before geometry
+window 0 after geometry
+window 0 tab 0 before addPage selected=0 hasRoot=1
+window 0 tab 0 after addPage
+window 0 tab 0 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+container start vertical=0 items=4
+container item 0 before new Split type=merged channel=successtheman
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+container item 0 after new Split
+container item 0 before setFilters
+container item 0 before decodeChannel
+container item 0 after decodeChannel
+container item 0 before setChannel
+container item 0 after setChannel
+container item 0 before setModerationMode
+container item 0 before setCheckSpellingOverride
+container item 0 before setInputEnabled
+container item 0 before restoreSendPlatformSelection
+container item 0 after restoreSendPlatformSelection
+container item 0 before emplace node
+container item 0 after emplace node
+container item 0 before addSplit
+container item 0 after addSplit
+container item 1 before new Split type=merged channel=successtheman
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+container item 1 after new Split
+container item 1 before setFilters
+container item 1 before decodeChannel
+container item 1 after decodeChannel
+container item 1 before setChannel
+container item 1 after setChannel
+container item 1 before setModerationMode
+container item 1 before setCheckSpellingOverride
+container item 1 before setInputEnabled
+container item 1 before restoreSendPlatformSelection
+container item 1 after restoreSendPlatformSelection
+container item 1 before emplace node
+container item 1 after emplace node
+container item 1 before addSplit
+container item 1 after addSplit
+container item 2 before new Split type=merged channel=rickluv69
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+container item 2 after new Split
+container item 2 before setFilters
+container item 2 before decodeChannel
+container item 2 after decodeChannel
+container item 2 before setChannel
+container item 2 after setChannel
+container item 2 before setModerationMode
+container item 2 before setCheckSpellingOverride
+container item 2 before setInputEnabled
+container item 2 before restoreSendPlatformSelection
+container item 2 after restoreSendPlatformSelection
+container item 2 before emplace node
+container item 2 after emplace node
+container item 2 before addSplit
+container item 2 after addSplit
+container item 3 before new Split type=merged channel=rickluv69
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+container item 3 after new Split
+container item 3 before setFilters
+container item 3 before decodeChannel
+container item 3 after decodeChannel
+container item 3 before setChannel
+container item 3 after setChannel
+container item 3 before setModerationMode
+container item 3 before setCheckSpellingOverride
+container item 3 before setInputEnabled
+container item 3 before restoreSendPlatformSelection
+container item 3 after restoreSendPlatformSelection
+container item 3 before emplace node
+container item 3 after emplace node
+container item 3 before addSplit
+container item 3 after addSplit
+container end
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 0 after applyFromDescriptor
+window 0 tab 1 before addPage selected=0 hasRoot=1
+window 0 tab 1 after addPage
+window 0 tab 1 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+container start vertical=0 items=2
+container item 0 before new Split type=merged channel=zigonyawigtv
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+container item 0 after new Split
+container item 0 before setFilters
+container item 0 before decodeChannel
+container item 0 after decodeChannel
+container item 0 before setChannel
+container item 0 after setChannel
+container item 0 before setModerationMode
+container item 0 before setCheckSpellingOverride
+container item 0 before setInputEnabled
+container item 0 before restoreSendPlatformSelection
+container item 0 after restoreSendPlatformSelection
+container item 0 before emplace node
+container item 0 after emplace node
+container item 0 before addSplit
+container item 0 after addSplit
+container item 1 before new Split type=merged channel=zigonyawigtv
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+container item 1 after new Split
+container item 1 before setFilters
+container item 1 before decodeChannel
+container item 1 after decodeChannel
+container item 1 before setChannel
+container item 1 after setChannel
+container item 1 before setModerationMode
+container item 1 before setCheckSpellingOverride
+container item 1 before setInputEnabled
+container item 1 before restoreSendPlatformSelection
+container item 1 after restoreSendPlatformSelection
+container item 1 before emplace node
+container item 1 after emplace node
+container item 1 before addSplit
+container item 1 after addSplit
+container end
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 1 after applyFromDescriptor
+window 0 tab 2 before addPage selected=0 hasRoot=1
+window 0 tab 2 after addPage
+window 0 tab 2 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=blinksbunky
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 2 after applyFromDescriptor
+window 0 tab 3 before addPage selected=0 hasRoot=1
+window 0 tab 3 after addPage
+window 0 tab 3 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=chaifailed
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 3 after applyFromDescriptor
+window 0 tab 4 before addPage selected=0 hasRoot=1
+window 0 tab 4 after addPage
+window 0 tab 4 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=lilflockoo
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 4 after applyFromDescriptor
+window 0 tab 5 before addPage selected=0 hasRoot=1
+window 0 tab 5 after addPage
+window 0 tab 5 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=cheetohead
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 5 after applyFromDescriptor
+window 0 tab 6 before addPage selected=0 hasRoot=1
+window 0 tab 6 after addPage
+window 0 tab 6 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=flawzz
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 6 after applyFromDescriptor
+window 0 tab 7 before addPage selected=0 hasRoot=1
+window 0 tab 7 after addPage
+window 0 tab 7 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=tetrm
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 7 after applyFromDescriptor
+window 0 tab 8 before addPage selected=0 hasRoot=1
+window 0 tab 8 after addPage
+window 0 tab 8 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=norvin_mag
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 8 after applyFromDescriptor
+window 0 tab 9 before addPage selected=0 hasRoot=0
+window 0 tab 9 after addPage
+window 0 tab 10 before addPage selected=1 hasRoot=1
+window 0 tab 10 after addPage
+window 0 tab 10 before select
+window 0 tab 10 after select
+window 0 tab 10 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=morecrown
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 10 after applyFromDescriptor
+window 0 tab 11 before addPage selected=0 hasRoot=1
+window 0 tab 11 after addPage
+window 0 tab 11 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=bg0015
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 11 after applyFromDescriptor
+window 0 tab 12 before addPage selected=0 hasRoot=1
+window 0 tab 12 after addPage
+window 0 tab 12 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=oopitsaboo
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 12 after applyFromDescriptor
+window 0 tab 13 before addPage selected=0 hasRoot=1
+window 0 tab 13 after addPage
+window 0 tab 13 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=duckxgirl
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 13 after applyFromDescriptor
+window 0 tab 14 before addPage selected=0 hasRoot=1
+window 0 tab 14 after addPage
+window 0 tab 14 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=calliej0y
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 14 after applyFromDescriptor
+window 0 tab 15 before addPage selected=0 hasRoot=1
+window 0 tab 15 after addPage
+window 0 tab 15 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=x2thea1, x2the
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 15 after applyFromDescriptor
+window 0 tab 16 before addPage selected=0 hasRoot=1
+window 0 tab 16 after addPage
+window 0 tab 16 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 16 after applyFromDescriptor
+window 0 tab 17 before addPage selected=0 hasRoot=1
+window 0 tab 17 after addPage
+window 0 tab 17 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 17 after applyFromDescriptor
+window 0 tab 18 before addPage selected=0 hasRoot=1
+window 0 tab 18 after addPage
+window 0 tab 18 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=412klein
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 18 after applyFromDescriptor
+window 0 tab 19 before addPage selected=0 hasRoot=1
+window 0 tab 19 after addPage
+window 0 tab 19 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=funknem
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 19 after applyFromDescriptor
+window 0 tab 20 before addPage selected=0 hasRoot=1
+window 0 tab 20 after addPage
+window 0 tab 20 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=soultravels
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 20 after applyFromDescriptor
+window 0 tab 21 before addPage selected=0 hasRoot=1
+window 0 tab 21 after addPage
+window 0 tab 21 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=bmg_hd
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 21 after applyFromDescriptor
+window 0 tab 22 before addPage selected=0 hasRoot=1
+window 0 tab 22 after addPage
+window 0 tab 22 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=maxamili
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 22 after applyFromDescriptor
+window 0 tab 23 before addPage selected=0 hasRoot=1
+window 0 tab 23 after addPage
+window 0 tab 23 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=iceposeidon
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 23 after applyFromDescriptor
+window 0 tab 24 before addPage selected=0 hasRoot=1
+window 0 tab 24 after addPage
+window 0 tab 24 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+container start vertical=0 items=2
+container item 0 before new Split type=merged channel=
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+container item 0 after new Split
+container item 0 before setFilters
+container item 0 before decodeChannel
+container item 0 after decodeChannel
+container item 0 before setChannel
+container item 0 after setChannel
+container item 0 before setModerationMode
+container item 0 before setCheckSpellingOverride
+container item 0 before setInputEnabled
+container item 0 before restoreSendPlatformSelection
+container item 0 after restoreSendPlatformSelection
+container item 0 before emplace node
+container item 0 after emplace node
+container item 0 before addSplit
+container item 0 after addSplit
+container item 1 before new Split type=merged channel=
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+container item 1 after new Split
+container item 1 before setFilters
+container item 1 before decodeChannel
+container item 1 after decodeChannel
+container item 1 before setChannel
+container item 1 after setChannel
+container item 1 before setModerationMode
+container item 1 before setCheckSpellingOverride
+container item 1 before setInputEnabled
+container item 1 before restoreSendPlatformSelection
+container item 1 after restoreSendPlatformSelection
+container item 1 before emplace node
+container item 1 after emplace node
+container item 1 before addSplit
+container item 1 after addSplit
+container end
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 24 after applyFromDescriptor
+window 0 tab 25 before addPage selected=0 hasRoot=1
+window 0 tab 25 after addPage
+window 0 tab 25 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+container start vertical=0 items=2
+container item 0 before new Split type=merged channel=dgthe99
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+container item 0 after new Split
+container item 0 before setFilters
+container item 0 before decodeChannel
+container item 0 after decodeChannel
+container item 0 before setChannel
+container item 0 after setChannel
+container item 0 before setModerationMode
+container item 0 before setCheckSpellingOverride
+container item 0 before setInputEnabled
+container item 0 before restoreSendPlatformSelection
+container item 0 after restoreSendPlatformSelection
+container item 0 before emplace node
+container item 0 after emplace node
+container item 0 before addSplit
+container item 0 after addSplit
+container item 1 before new Split type=merged channel=dgthe99
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+container item 1 after new Split
+container item 1 before setFilters
+container item 1 before decodeChannel
+container item 1 after decodeChannel
+container item 1 before setChannel
+container item 1 after setChannel
+container item 1 before setModerationMode
+container item 1 before setCheckSpellingOverride
+container item 1 before setInputEnabled
+container item 1 before restoreSendPlatformSelection
+container item 1 after restoreSendPlatformSelection
+container item 1 before emplace node
+container item 1 after emplace node
+container item 1 before addSplit
+container item 1 after addSplit
+container end
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 25 after applyFromDescriptor
+window 0 tab 26 before addPage selected=0 hasRoot=1
+window 0 tab 26 after addPage
+window 0 tab 26 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=pretty_guns
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 26 after applyFromDescriptor
+window 0 tab 27 before addPage selected=0 hasRoot=1
+window 0 tab 27 after addPage
+window 0 tab 27 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=echosinclair
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 27 after applyFromDescriptor
+window 0 tab 28 before addPage selected=0 hasRoot=1
+window 0 tab 28 after addPage
+window 0 tab 28 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=maxamili
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 28 after applyFromDescriptor
+window 0 tab 29 before addPage selected=0 hasRoot=1
+window 0 tab 29 after addPage
+window 0 tab 29 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=cheetohead
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 29 after applyFromDescriptor
+window 0 tab 30 before addPage selected=0 hasRoot=1
+window 0 tab 30 after addPage
+window 0 tab 30 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=apolloqc
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 30 after applyFromDescriptor
+window 0 tab 31 before addPage selected=0 hasRoot=1
+window 0 tab 31 after addPage
+window 0 tab 31 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=official_hugztheclown
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 31 after applyFromDescriptor
+window 0 tab 32 before addPage selected=0 hasRoot=1
+window 0 tab 32 after addPage
+window 0 tab 32 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=itzrhrhi
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 32 after applyFromDescriptor
+window 0 tab 33 before addPage selected=0 hasRoot=1
+window 0 tab 33 after addPage
+window 0 tab 33 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=majesticmak0
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 33 after applyFromDescriptor
+window 0 tab 34 before addPage selected=0 hasRoot=1
+window 0 tab 34 after addPage
+window 0 tab 34 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+container start vertical=0 items=2
+container item 0 before new Split type=merged channel=jackknifefinnegan
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+container item 0 after new Split
+container item 0 before setFilters
+container item 0 before decodeChannel
+container item 0 after decodeChannel
+container item 0 before setChannel
+container item 0 after setChannel
+container item 0 before setModerationMode
+container item 0 before setCheckSpellingOverride
+container item 0 before setInputEnabled
+container item 0 before restoreSendPlatformSelection
+container item 0 after restoreSendPlatformSelection
+container item 0 before emplace node
+container item 0 after emplace node
+container item 0 before addSplit
+container item 0 after addSplit
+container item 1 before new Split type=merged channel=jackknifefinnegan
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+container item 1 after new Split
+container item 1 before setFilters
+container item 1 before decodeChannel
+container item 1 after decodeChannel
+container item 1 before setChannel
+container item 1 after setChannel
+container item 1 before setModerationMode
+container item 1 before setCheckSpellingOverride
+container item 1 before setInputEnabled
+container item 1 before restoreSendPlatformSelection
+container item 1 after restoreSendPlatformSelection
+container item 1 before emplace node
+container item 1 after emplace node
+container item 1 before addSplit
+container item 1 after addSplit
+container end
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 34 after applyFromDescriptor
+window 0 tab 35 before addPage selected=0 hasRoot=1
+window 0 tab 35 after addPage
+window 0 tab 35 before applyFromDescriptor
+SplitContainer::applyFromDescriptor start
+before applyFromDescriptorRecursively
+leaf before new Split type=merged channel=seizero
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+leaf after new Split
+leaf before decodeChannel
+leaf after decodeChannel
+leaf before setChannel
+leaf after setChannel
+leaf before setModerationMode
+leaf before setFilters
+leaf before setCheckSpellingOverride
+leaf before setInputEnabled
+leaf before restoreSendPlatformSelection
+leaf after restoreSendPlatformSelection
+leaf before insertSplit
+leaf after insertSplit
+after applyFromDescriptorRecursively
+before normalizeRestoredActivityFiltering
+after normalizeRestoredActivityFiltering
+before SplitContainer::layout
+after SplitContainer::layout
+window 0 tab 35 after applyFromDescriptor
+window 0 before show
+window 0 after show
+window 0 before state
+window 0 after state
+applyWindowLayout end
+after applyWindowLayout
+WindowManager::initialize end
+Application after windows initialize
+Application before ffzBadges load
+Application after ffzBadges load
+Application before global emotes
+Application after global emotes
+Application before chat servers initialize
+Application after chat servers initialize
+Application before notifications initialize
+Application after notifications initialize
+Application before twitchBadges load
+Application after twitchBadges load
+Application before plugins initialize
+PluginController::initialize start
+PluginController before pluginsEnabled connect
+PluginController pluginsEnabled callback enabled=0
+PluginController before plugins clear
+PluginController after plugins clear
+PluginController after pluginsEnabled connect
+PluginController::initialize end
+Application after plugins initialize
+Application before initNm
+Application after initNm
+Application before initEventAPIs
+Application after initEventAPIs
+Application before streamerMode start
+Application after streamerMode start
+Application::initialize end
+Application::run start
+Application::run before mainWindow
+Application::run after mainWindow
+Application::run before mainWindow.show
+Application::run after mainWindow.show
+Application::run after startup dialog timer
+Application::run after updates timer
+Application::run before BTTV connect
+Application::run after BTTV connect
+Application::run before FFZ connect
+Application::run after FFZ connect
+Application::run before SevenTV connect
+Application::run after SevenTV connect
+Application::run before twitch connect timer
+Application::run after twitch connect timer
+Application::run before QApplication::exec
+showStartupDialogs start
+showStartupDialogs before maybePromptForStartup
+maybePromptForStartup start
+maybePromptForStartup acknowledged
+showStartupDialogs after maybePromptForStartup
+showStartupDialogs postUpdate=0
+showStartupDialogs end
+Application::run twitch connect timer start
+Application::run twitch connect timer end
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
+Split init before Channel::getEmpty
+Split init after Channel::getEmpty
+Split init before defaultPlatformIndicatorMode
+Split init after defaultPlatformIndicatorMode
+Split init before QVBoxLayout
+Split init after QVBoxLayout
+Split init before SplitHeader
+SplitHeader after BaseWidget
+SplitHeader before TooltipWidget
+SplitHeader after TooltipWidget
+SplitHeader constructor body start
+SplitHeader before initializeLayout
+SplitHeader after initializeLayout
+SplitHeader before updateChannelText
+SplitHeader after updateChannelText
+SplitHeader before handleChannelChanged
+SplitHeader after handleChannelChanged
+Split init after SplitHeader
+Split init before TwitchPollsAndPredictionsBar
+Split init after TwitchPollsAndPredictionsBar
+Split init before scrollbackSplitLimit
+Split init after scrollbackSplitLimit
+Split init before ChannelView
+Split init after ChannelView
+Split init before SplitInput
+Split init after SplitInput
+Split init before SplitOverlay
+Split init after SplitOverlay
+Split constructor body start
